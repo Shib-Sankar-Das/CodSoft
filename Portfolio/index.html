@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Shib Sankar Das_Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -127,7 +127,7 @@
                 <div class="projects-info">
                     <h4>Python Projects</h4>
                     <p>Where Code Unleashes Possibilities, Crafting Solutions that Speak the Language of Innovation.</p>
-                    <a href="#"><i class="bx bx-link"></i></a>
+                    <a href="https://www.buymeacoffee.com/shib_sankar_das"><i class="bx bx-link"></i></a>
                 </div>
             </div>
 
@@ -136,7 +136,7 @@
                 <div class="projects-info">
                     <h4>App Development</h4>
                     <p>Building Tomorrow's Experience: Android App Development that Transforms Ideas into Intuitive, Seamless, and Captivating Digital Journeys.</p>
-                    <a href="#"><i class="bx bx-link"></i></a>
+                    <a href="https://www.buymeacoffee.com/shib_sankar_das"><i class="bx bx-link"></i></a>
                 </div>
             </div>
 
@@ -145,7 +145,7 @@
                 <div class="projects-info">
                     <h4>Robotics</h4>
                     <p>Crafting Tomorrow's Technological Marvels, Where Metal Meets Imagination, and Every Innovation is a Step into the Future of Automation.</p>
-                    <a href="#"><i class="bx bx-link"></i></a>
+                    <a href="https://www.buymeacoffee.com/shib_sankar_das"><i class="bx bx-link"></i></a>
                 </div>
             </div>
 
@@ -154,7 +154,7 @@
                 <div class="projects-info">
                     <h4>Internet of Things</h4>
                     <p>Empowering Tomorrow: IoT Projects that Connect, Innovate, and Transform, Unleashing a World of Smart Synergy and Endless Possibilities</p>
-                    <a href="#"><i class="bx bx-link"></i></a>
+                    <a href="https://www.buymeacoffee.com/shib_sankar_das"><i class="bx bx-link"></i></a>
                 </div>
             </div>
 
@@ -279,7 +279,7 @@
         </form>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="foot">
         <div class="social">
             <a href="https://www.linkedin.com/in/shib-sankar-das-a635b6253/"><i class='bx bxl-linkedin-square'></i></a>
             <a href="https://github.com/Shib-Sankar-Das"><i class='bx bxl-github'></i></a>
@@ -290,7 +290,7 @@
         <ul class="list">
 
             <li>
-                <a href="#">FAQ</a>
+                <a href="#foot" onclick="openModal('myModal3')">FAQ</a>
             </li>
 
             <li>
@@ -306,7 +306,7 @@
             </li>
 
             <li>
-                <a href="#">Privacy Policy</a>
+                <a href="#foot" onclick="openModal('myModal4')">Privacy Policy</a>
             </li>
 
         </ul>
@@ -321,31 +321,35 @@
             <span class="close" onclick="closeModal('myModal1')">&times;</span>
 
             <h2>Basic <span>Details</span></h2>
-            
-            <table border="10">
-                <thead>
-                    <tr>
-                        <th><span>Name: </span>Shib Sankar Das</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><span>Hobbies: </span>
-                            <p>Martial arts, Drawing, Quiz, Research, Writing, Photography</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <span>Educational Qualification: </span>
-                            <p><span>Secondary:</span> Narikeldanga High School, WBBSE, 2020</p>
-                            <p><span>Higher Secondary:</span> Narikeldanga High School, WBBHSE, 2022</p>
-                            <p><span>B.tech in Computer Science and Engineering:</span> Bengali Institute of Technology, MAKAUT, 2022-26 </p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>For more details follow me on social media</p>
-            <div class="social-icons aling">
+
+            <div class="scrollable-content">
+                <div class="scrollable-paragraph">
+                    <table border="10">
+                        <thead>
+                            <tr>
+                                <th><span>Name: </span>Shib Sankar Das</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span>Hobbies: </span>
+                                    <p>Martial arts, Drawing, Quiz, Research, Writing, Photography</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span>Educational Qualification: </span>
+                                    <p><span>Secondary:</span> Narikeldanga High School, WBBSE, 2020</p>
+                                    <p><span>Higher Secondary:</span> Narikeldanga High School, WBBHSE, 2022</p>
+                                    <p><span>B.tech in Computer Science and Engineering:</span> Bengali Institute of Technology, MAKAUT, 2022-26 </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <p class="para1">For more details follow me on social media</p>
+            <div class="social-icons1 aling">
                 <a href="https://www.linkedin.com/in/shib-sankar-das-a635b6253/"><i class='bx bxl-linkedin-square'></i></a>
                 <a href="https://github.com/Shib-Sankar-Das"><i class='bx bxl-github'></i></a>
                 <a href="https://www.instagram.com/shib_sankar_das_721?igshid=YzVkODRmOTdmMw=="><i class='bx bxl-instagram' ></i></a>
@@ -360,7 +364,11 @@
 
             <h2>Hire <span>Me</span></h2>
             
-            <p class="para">If you're ready to elevate your projects with a tech enthusiast and creative innovator, I'm here for the challenge. Let's collaborate and bring your visions to life! Reach out to me on the following social media channels, and let's start the conversation:</p>
+            <div class="scrollable-content">
+                <div class="scrollable-paragraph">
+                    <p class="para">If you're ready to elevate your projects with a tech enthusiast and creative innovator, I'm here for the challenge. Let's collaborate and bring your visions to life! Reach out to me on the following social media channels, and let's start the conversation:</p>
+                </div>
+            </div>
             <div class="social-icons aling">
                 <a href="https://www.linkedin.com/in/shib-sankar-das-a635b6253/"><i class='bx bxl-linkedin-square'></i></a>
                 <a href="mailto:shibsankardas721@gmail.com?"><i class='bx bx-envelope'></i></a>
@@ -368,6 +376,140 @@
         </div>
     </div>
     
+    <div class="modal" id="myModal3">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('myModal3')">&times;</span>
+
+            <h2>F<span>A</span>Q</h2>
+            
+            <div class="scrollable-content">
+                <div class="scrollable-paragraph">
+                    <div class="wrapper">
+                        <div class="faq">
+                          <button class="accordion">
+                            What services do you offer?
+                            <i class="fa-solid fa-chevron-down"></i>
+                          </button>
+                          <div class="pannel">
+                            <p>
+                                I offer a range of services including web development, hardware repair, UI/UX design, and Python/Android app development.
+                            </p>
+                          </div>
+                        </div>
+                  
+                        <div class="faq">
+                          <button class="accordion">
+                            Can you provide examples of your previous work?
+                            <i class="fa-solid fa-chevron-down"></i>
+                          </button>
+                          <div class="pannel">
+                            <p>
+                                Certainly! You can find a comprehensive showcase of my previous projects in the portfolio section of this website.
+                            </p>
+                          </div>
+                        </div>
+                  
+                        <div class="faq">
+                          <button class="accordion">
+                            How can I contact you for potential projects or collaborations?
+                            <i class="fa-solid fa-chevron-down"></i>
+                          </button>
+                          <div class="pannel">
+                            <p>
+                                Feel free to reach out via email at <span><a href="mailto:shibsankardas721@gmail.com?">shibsankardas721@gmail.com</a></span> or connect with me on <span><a href="https://www.linkedin.com/in/shib-sankar-das-a635b6253/">LinkedIn</a></span>.
+                            </p>
+                          </div>
+                        </div>
+                  
+                        <div class="faq">
+                          <button class="accordion">
+                            What technologies and tools do you specialize in?
+                            <i class="fa-solid fa-chevron-down"></i>
+                          </button>
+                          <div class="pannel">
+                            <p>
+                                I specialize in a variety of technologies including Python, Android app development, web development, and extensive experience with hardware systems.
+                            </p>
+                          </div>
+                        </div>
+                  
+                        <div class="faq">
+                          <button class="accordion">
+                            What sets you apart from other professionals in your field?
+                            <i class="fa-solid fa-chevron-down"></i>
+                          </button>
+                          <div class="pannel">
+                            <p>
+                                My unique blend of skills, spanning coding, design, hardware, and business, allows me to offer holistic solutions that go beyond traditional boundaries.
+                            </p>
+                          </div>
+                        </div>
+                  
+                        <div class="faq">
+                          <button class="accordion">
+                            Do you work with clients remotely or only locally?
+                            <i class="fa-solid fa-chevron-down"></i>
+                          </button>
+                          <div class="pannel">
+                            <p>
+                                I work both locally and remotely, providing flexibility to clients worldwide.
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="faq">
+                            <button class="accordion">
+                                How do you approach the creative process for a new project?
+                              <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            <div class="pannel">
+                              <p>
+                                I believe in a collaborative approach, involving clients in the ideation process to ensure the final product aligns with their vision.
+                              </p>
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <button class="accordion">
+                                Can you explain your workflow for project development?
+                              <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                            <div class="pannel">
+                              <p>
+                                My workflow involves understanding client requirements, strategic planning, iterative development, and thorough testing to deliver a polished final product.
+                              </p>
+                            </div>
+                        </div>
+
+                      </div>
+                </div>
+            </div>
+            <div class="social-icons aling">
+                <a href="https://www.linkedin.com/in/shib-sankar-das-a635b6253/"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="mailto:shibsankardas721@gmail.com?"><i class='bx bx-envelope'></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="myModal4">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('myModal4')">&times;</span>
+
+            <h2>Privacy <span>Policy</span></h2>
+            
+            <div class="scrollable-content">
+                <div class="scrollable-paragraph">
+                    <p class="para">If you're ready to elevate your projects with a tech enthusiast and creative innovator, I'm here for the challenge. Let's collaborate and bring your visions to life! Reach out to me on the following social media channels, and let's start the conversation:</p>
+                </div>
+            </div>
+            <div class="social-icons aling">
+                <a href="https://www.linkedin.com/in/shib-sankar-das-a635b6253/"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="mailto:shibsankardas721@gmail.com?"><i class='bx bx-envelope'></i></a>
+            </div>
+        </div>
+    </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
