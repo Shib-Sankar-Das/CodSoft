@@ -4,7 +4,7 @@
 🌐 Appreciating the insightful challenges and collaborative working experience at CodSoft Web Development, where each task posed intriguing questions and fueled a dynamic exchange of ideas. Gratitude to the CodSoft team for providing a stimulating environment that encourages problem-solving and pushes the boundaries of creativity.💻🚀 
 
 
-## Level 1 => Task 1 : [Landing Page](https://robotics-arenalandingpage.shib-sankarsan2.repl.co/)
+## Level 1 => Task 1 : [Landing Page](https://955f1d15-4ce8-491a-956e-a6be3f884a72-00-2ae3isj90l1s0.janeway.replit.dev/)
 
 A landing page is an ideal web development project for beginners. It requires basic
 knowledge of HTML and CSS. Through this project, I will learn to create columns, divide
@@ -14,7 +14,7 @@ padding, color palette, boxes, and other elements. Be mindful of CSS to avoid ov
 
 
 
-## Level 1 => Task 2 : [Portfolio](https://portfolio-shibsankardas.shib-sankarsan2.repl.co/)
+## Level 1 => Task 2 : [Portfolio](https://e15fa9b5-bb3f-49cb-99cf-dfd3b49376c6-00-1firl4270vly3.spock.replit.dev/)
 
 **Creating a personal portfolio using CSS and HTML is a popular beginner web development
 project.**
@@ -33,7 +33,7 @@ Write a short bio highlighting your skills and experience.
 **Contact Section:** Include your contact information, such as email address and phone number.
 
 **Footer:** Add a copyright notice and any additional links or information.
-## Level 1 => Task 2 : [Calculator](https://calculator.shib-sankarsan2.repl.co//)
+## Level 1 => Task 2 : [Calculator](https://f490d350-6c67-4a4a-920c-ff437edacc5d-00-vd9oaz70bn31.riker.replit.dev/)
 
 To create a basic calculator using CSS, HTML, and JavaScript, I will need to implement an
 interactive interface with buttons for addition, subtraction, multiplication, and division
