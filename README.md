@@ -16,7 +16,7 @@ padding, color palette, boxes, and other elements. Be mindful of CSS to avoid ov
 ![Screenshot 2024-01-11 0101061](https://github.com/Shib-Sankar-Das/CodSoft/assets/136646947/21c85b71-6f57-4dcd-aff5-cf42a2536d7d)
 
 
-## Level 1 => Task 2 : [Portfolio](https://e15fa9b5-bb3f-49cb-99cf-dfd3b49376c6-00-1firl4270vly3.spock.replit.dev/)
+## Level 1 => Task 2 : [Portfolio](https://shib-sankar-das-portfolio.netlify.app/)
 
 **Creating a personal portfolio using CSS and HTML is a popular beginner web development
 project.**
